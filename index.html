@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Clicker</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="img/mouse.png">
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<body>
+  <main>
+    <h2>Clicker game</h2>
+    <h1 id ="score">0$<img src="img/coins.png"></h1>
+    <button id="clickbtn" onclick="clickBtn()">+$</button>
+    <br><input type="button" value="1 lvl upgrade|-100$" onclick="update()">
+    <br><input type="button" value="2 lvl upgrade|-150$" onclick="update1()">
+    <br><input type="button" value="5 lvl upgrade|-250$" onclick="update2()">
+    <br><input type="button" value="10 lvl upgrade|-500$" onclick="update3()">
+    <br><input type="button" value="Autoclicker|-10000$" onclick="auto()">
+    <br><input type="button" value="Details" onclick="reboot()">
+    <img src="img/profit.png" class="img" onclick="pashalka()">
+  </main>
+</body>
+  <script  src="./script.js"></script>
+</body>
+</html>
